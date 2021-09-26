@@ -2,7 +2,7 @@
 
 int main() {
     int testvar;
-    int deez = 1;
+    int deez = 100;
     int nuts;
     printf("Hello, World!\n");
     scanf("%d", &testvar);
@@ -14,7 +14,7 @@ int main() {
     else if(testvar > 8)
         printf("one liners???");
     else;
-    for(nuts = 0; nuts > deez; nuts++)
-        printf("%d", nuts);
+    for(nuts = 0; nuts < deez; nuts++)
+        printf("%d\n", nuts);
     return 0;
 }
