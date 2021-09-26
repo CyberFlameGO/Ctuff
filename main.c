@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char testvar;
+    int testvar;
     printf("Hello, World!\n");
     scanf("%d", &testvar);
     printf("%d", testvar);
