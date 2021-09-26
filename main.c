@@ -2,6 +2,8 @@
 
 int main() {
     int testvar;
+    int deez = 1;
+    int nuts;
     printf("Hello, World!\n");
     scanf("%d", &testvar);
     printf("%d", testvar);
@@ -12,5 +14,7 @@ int main() {
     else if(testvar > 8)
         printf("one liners???");
     else;
+    for(nuts; deez; nuts++)
+        printf("%d", nuts);
     return 0;
 }
