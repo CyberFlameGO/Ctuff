@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int testvar;
+    char testvar;
     printf("Hello, World!\n");
-    scanf("%d", &testvar);
-    printf("%d", testvar);
+    scanf("%c", &testvar);
+    printf("%c", testvar);
     getchar();
     return 0;
 }
