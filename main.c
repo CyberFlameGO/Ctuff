@@ -14,7 +14,7 @@ int main() {
     else if(testvar > 8)
         printf("one liners???");
     else;
-    for(nuts; deez; nuts++)
+    for(nuts = 0; nuts > deez; nuts++)
         printf("%d", nuts);
     return 0;
 }
